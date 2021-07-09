@@ -76,8 +76,19 @@ margin-top: 35px;
    border-radius: 10px;
    transition: transform 1s;
    margin-bottom: 60px;
+   transform:translatex(100%);
+   animation: cssmarquee 10s linear infinite;
 
 }
+@keyframes cssmarquee {
+    0% {
+    transform: translateX(100%);
+    }
+    100% {
+    transform: translateX(-100%);
+    }
+    }
+
 .products-continer:hover{
     transform: rotate(100deg);
     background-color: rgb(137, 201, 77) ;
