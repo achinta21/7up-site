@@ -20,11 +20,11 @@ body{
   font-size: 20px;
   
   
+  
 }
 .row-area a{
     text-decoration: none;
     color: white;
-
 }
 .row-area h1{
     font-size: 30px;
@@ -44,6 +44,7 @@ margin-top: 35px;
 
 
 
+
 }
 .fa-search{
     font-size:16px;
@@ -56,9 +57,10 @@ margin-top: 35px;
 }
 .fa-user-circle{
     font-size:25px;
-    padding: 10px;
-   
-   
+    padding: 20px;
+    margin-left:5px;
+    
+ 
 }
 .continer{
     width: 100%;
@@ -129,4 +131,64 @@ section{
     font-family:sans-serif;
     color: slategrey;
     margin-bottom:30px;
+}
+
+.owner-detels{
+    background-color: rgb(231, 164, 233);
+    width:100%;
+    float: left;
+    margin-left: 50px;
+    margin-right: 50px;
+    box-shadow: 10px 7px 30px gray;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+    transition: transform 1s;
+    
+}
+.owner-detels img{
+    width:50%;
+    
+      
+}
+.owner-detels:hover{
+    transform: rotate(-200deg);
+}
+
+.owner-continer{
+        margin-bottom: 100px;
+        display:flex;
+    }
+article h1{
+    text-align: center;
+    font-weight: 700;
+    font-family:sans-serif;
+    color: slategrey;
+    font-size: 30px;
+    margin-bottom:100px;
+
+}
+footer{
+    background-color: rgb(39, 30, 71);
+    height: 200px;
+    text-align: center;
+    padding: 20px;
+}
+footer h1{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+footer p{
+    margin-bottom: 50px;
+    color: white;
+}
+.fab{
+    color: white;
+    
+    
+}
+.fas{
+color: white;
+
 }
